@@ -8,8 +8,8 @@ This repository contains the automated testing suite for the **SwiftTranslator**
 ## 👤 Student Information
 | Field | Details |
 | :--- | :--- |
-| **Name** | Vithana O.V.D.P.D |
-| **Student ID** | IT23630116 |
+| **Name** | weerasundara W D R |
+| **Student ID** | IT23755888 |
 | **Specialization** | Information Technology |
 | **Option Selected** | Option 1 (Singlish to Sinhala) |
 
@@ -36,12 +36,12 @@ Clone this repository to your local machine and install the dependencies:
 
 ###### Clone the repository
 ```bash
-git clone https://github.com/pasindu8/IT3040---IT-Project-Management.git
+git clone https://github.com/dewduni111/IT3040---IT-Project-Management.git
 ```
 
 ###### Navigate into the folder
 ```bash
-cd SLIIT ITPM
+cd ITPM
 ```
 
 ###### Install Node modules
@@ -61,8 +61,8 @@ You can run the tests using the following terminal commands:
 | Task | Command |
 | :--- | :--- |
 | Run All Tests (Headed) | npx playwright test --headed |
-| Run Accuracy Tests | npx playwright test tests/assignment.spec.js --headed |
-| Run UI-Related Tests | npx playwright test tests/test.spec.js --headed |
+| Run Accuracy Tests | npx playwright test tests/tests.spec.js --headed |
+| Run UI-Related Tests | npx playwright test tests/ui_test.spec.js --headed |
 | View Test Report | npx playwright show-report |
 
 ---
@@ -70,12 +70,12 @@ You can run the tests using the following terminal commands:
 ## 📁 Project Structure
 ```text
 ├── tests/
-│   ├── assignment.spec.js   # Accuracy validation scenarios (24+ cases)
-│   └── test.spec.js         # UI-related scenarios (Reset/Clear functionality)
+│   ├── tests.spec.js   # Accuracy validation scenarios (24+ cases)
+│   └── ui_test.spec.js         # UI-related scenarios (Reset/Clear functionality)
 ├── playwright.config.js     # Playwright configuration
 ├── package.json             # Project dependencies
 ├── README.md                # Project documentation
-└── IT23630116.xlsx          # Test Case document (Appendix 2)
+└── IT23755888.xlsx          # Test Case document (Appendix 2)
 ```
 
 ---
